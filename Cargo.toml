@@ -3,4 +3,9 @@ name = "anymsg"
 version = "0.1.0"
 authors = ["archshift <gh@archshift.com>"]
 
-[dependencies]
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "throughput"
+harness = false
